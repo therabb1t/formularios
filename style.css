@@ -2,14 +2,16 @@ h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*CADASTRO*/
 #cad-pessoa form h2{
 color: #494c4c;
 text-align: center;
 }
+
 #cad-pessoa form{
+    display: block;
     font-family: 'Arial';
     align-items: stretch;
-    display: block;
     justify-content: center;
     background-color: ghostwhite;
         border-top-left-radius: 10px;
@@ -18,17 +20,50 @@ text-align: center;
         border-bottom-left-radius: 10px;
     width:20%;
     margin-left: 500px;
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
+        padding: 20px 20px 20px 20px;
+        padding-bottom: 20px; 20px;
         padding-left: 20px;
     border: 1px solid #ccc;
     line-height: 15px;
     line-break: strict;
 }
-
-#busca form{
-
+#cad-pessoa label{
+    display:block;
+    font-size: 17px;
+    margin: 5px 0 5px;
 }
 
+/*BUSCA*/
+}
+#busca form{
+    display: flex;
+    width: 30%;
+    height: 60px;
+    margin-left: 35%;
+    margin-top: 100px;
+    display: flex;
+}
+#busca form #buscaa{
+    width: 80%;
+    height: 100%;
+    border-radius: 60px;
+    text-align: left;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.475);
+    padding-left: 30px;
+    font-size: 20px;
+    color: black;
+    margin-top: 0;
+}
+
+#busca form #bola{
+    width: 15%;
+    height: 90%;
+    margin-top: 0.7%;
+    margin-left: 3%;
+    border-radius: 110%;
+    border: none;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhwkvAZPTzbJRIHmqnS8eaoOb9mo4aaZPvehzLT5BQRQZoY3P79WrM5yCvjsmAu2zBiOs&usqp=CAU);
+    background-image: linear-gradient(to bottom, rgb(214, 28, 143), rgb(111, 7, 145));
+}
 
