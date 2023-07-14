@@ -60,6 +60,11 @@ text-align: center;
     margin-left: 3%;
     border-radius: 110%;
     border: none;
-    background-image: linear-gradient(to bottom, rgb(214, 28, 143), rgb(111, 7, 145));
+    background: no-repeat 50% 50% url(https://images.tcdn.com.br/files/934950/themes/11/img/settings/lupa-branca-png-3-Transparent-Images.png?808beac80f53c6e6f7afc413793d62f2) linear-gradient(to bottom, rgb(214, 28, 143), rgb(111, 7, 145));
+    background-size: 20%;
 }
 
+/*LOGIN*/
+#login{
+
+}
