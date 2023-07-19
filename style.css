@@ -33,38 +33,37 @@ text-align: center;
 }
 
 /*BUSCA*/
+/*BUSCA*/
+}
 #busca form{
     display: flex;
     width: 30%;
     height: 60px;
     margin-left: 35%;
-    margin-top: 30px;
+    margin-top: 100px;
     display: flex;
 }
 #busca form #buscaa{
-    width: 80%;
-    height: 100%;
+    width: 20%;
+    height: 40%;
     border-radius: 60px;
     text-align: left;
     border: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.475);
-    padding-left: 30px;
-    font-size: 20px;
-    color: black;
+    padding-left: 10px;
+    margin-left: 35%;
+    font-size: 35px;
+    color: rgb(184, 32, 143);
 }
 
-#busca form #bola{
-    width: 15%;
-    height: 90%;
-    margin-top: 0.7%;
-    margin-left: 3%;
+#busca form #bola {
+    background-image: url(lupa.png);
+    background-size: cover;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
     border-radius: 110%;
-    border: none;
-    background: no-repeat 50% 50% url(https://images.tcdn.com.br/files/934950/themes/11/img/settings/lupa-branca-png-3-Transparent-Images.png?808beac80f53c6e6f7afc413793d62f2) linear-gradient(to bottom, rgb(214, 28, 143), rgb(111, 7, 145));
-    background-size: 20%;
 }
 
-/*LOGIN*/
-#login{
-
-}
